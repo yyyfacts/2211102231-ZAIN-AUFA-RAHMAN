@@ -1,55 +1,50 @@
+/* Mengatur tampilan umum */
 body {
-    background-color: #fe6f6f;
-    font-family: Arial, sans-serif;
-}
-p {
-    color: green;
-    font-size: 16px;
-}
-
-body {
-    background-color: lightgray; /* Latar belakang jadi abu terang */
-}
-h1 {
-    color: blue; /* Warna teks jadi biru */
-}
-
-p {
-    font-size: 18px; /* Ukuran font */
+    background-color: #f4f4f4; /* Warna latar belakang */
     font-family: Arial, sans-serif; /* Jenis font */
-    text-align: center; /* Teks rata tengah */
 }
 
+/* Mengatur warna dan ukuran teks untuk paragraf */
+p {
+    color: green; /* Warna teks */
+    font-size: 16px; /* Ukuran font */
+}
+
+/* Mengatur warna untuk heading */
+h1 {
+    color: blue; /* Warna tulisan jadi biru */
+}
+
+/* Mengatur border dan padding untuk elemen div */
 div {
-    border: 2px solid black; /* Garis tebal hitam */
-    padding: 10px; /* Jarak isi ke pinggir */
+    border: 2px solid black; /* Garis pinggir */
+    padding: 10px; /* Ruang di dalam elemen */
+    margin: 20px; /* Ruang di luar elemen */
 }
 
-div {
-    margin: 20px; /* Jarak luar elemen */
-    padding: 15px; /* Jarak dalam elemen */
-}
-
+/* CSS Grid */
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Tiga kolom sama rata */
-    gap: 10px; /* Jarak antar elemen */
+    display: grid; /* Menggunakan grid */
+    grid-template-columns: 1fr 1fr 1fr; /* Tiga kolom dengan ukuran yang sama */
+    gap: 10px; /* Jarak antar item grid */
 }
 
 .grid-item {
-    background: lightblue;
-    padding: 20px;
-    text-align: center;
+    background: rgb(92, 44, 5); /* Warna latar belakang item grid */
+    padding: 20px; /* Ruang di dalam item grid */
+    text-align: center; /* Teks di tengah */
 }
 
+/* CSS Flexbox */
 .flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Mengatur posisi item secara horizontal */
+    align-items: center; /* Mengatur posisi item secara vertikal */
+    gap: 10px; /* Jarak antar item flex */
 }
+
 .flex-item {
-    background: lightcoral;
-    padding: 20px;
-    text-align: center;
+    background: lightcoral; /* Warna latar belakang item flex */
+    padding: 20px; /* Ruang di dalam item flex */
+    text-align: center; /* Teks di tengah */
 }
