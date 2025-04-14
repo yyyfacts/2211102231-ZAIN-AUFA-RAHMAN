@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.profile-header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+/* Contact Information */
+.contact-info {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* About Me Section */
+.about {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+/* Work Experience Section */
+.work-experience, .education, .language-skills {
+    margin-bottom: 20px;
+}
+
+.job h3,
+.education-entry h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .profile-picture {
+        width: 60px;
+        height: 60px;
+    }
+    .profile-header h1 {
+        font-size: 24px;
+    }
+}
