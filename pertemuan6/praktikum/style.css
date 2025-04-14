@@ -1,0 +1,55 @@
+body {
+    background-color: #fe6f6f;
+    font-family: Arial, sans-serif;
+}
+p {
+    color: green;
+    font-size: 16px;
+}
+
+body {
+    background-color: lightgray; /* Latar belakang jadi abu terang */
+}
+h1 {
+    color: blue; /* Warna teks jadi biru */
+}
+
+p {
+    font-size: 18px; /* Ukuran font */
+    font-family: Arial, sans-serif; /* Jenis font */
+    text-align: center; /* Teks rata tengah */
+}
+
+div {
+    border: 2px solid black; /* Garis tebal hitam */
+    padding: 10px; /* Jarak isi ke pinggir */
+}
+
+div {
+    margin: 20px; /* Jarak luar elemen */
+    padding: 15px; /* Jarak dalam elemen */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Tiga kolom sama rata */
+    gap: 10px; /* Jarak antar elemen */
+}
+
+.grid-item {
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.flex-item {
+    background: lightcoral;
+    padding: 20px;
+    text-align: center;
+}
